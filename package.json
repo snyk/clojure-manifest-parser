@@ -33,6 +33,7 @@
   ],
   "homepage": "https://github.com/snyk/clojure-manifest-parser#readme",
   "dependencies": {
+    "@snyk/dep-graph": "^1.15.0",
     "lodash": "^4.17.15",
     "source-map-support": "^0.5.7",
     "tslib": "^1.9.3"
