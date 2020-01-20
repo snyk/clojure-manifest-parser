@@ -1,0 +1,2238 @@
+{
+  "schemaVersion": "1.2.0",
+  "pkgManager": {
+    "name": "clojure-deps"
+  },
+  "pkgs": [
+    {
+      "id": "testing@0.0.87",
+      "info": {
+        "name": "testing",
+        "version": "0.0.87"
+      }
+    },
+    {
+      "id": "ch.qos.logback/logback-classic@\"1.2.3\"",
+      "info": {
+        "name": "ch.qos.logback/logback-classic",
+        "version": "\"1.2.3\""
+      }
+    },
+    {
+      "id": "ch.qos.logback/logback-core@\"1.2.3\"]",
+      "info": {
+        "name": "ch.qos.logback/logback-core",
+        "version": "\"1.2.3\"]"
+      }
+    },
+    {
+      "id": "clojure-complete@\"0.2.5\"",
+      "info": {
+        "name": "clojure-complete",
+        "version": "\"0.2.5\""
+      }
+    },
+    {
+      "id": "com.taoensso/tufte@\"2.1.0\"",
+      "info": {
+        "name": "com.taoensso/tufte",
+        "version": "\"2.1.0\""
+      }
+    },
+    {
+      "id": "com.taoensso/encore@\"2.115.0\"",
+      "info": {
+        "name": "com.taoensso/encore",
+        "version": "\"2.115.0\""
+      }
+    },
+    {
+      "id": "com.taoensso/truss@\"1.5.0\"",
+      "info": {
+        "name": "com.taoensso/truss",
+        "version": "\"1.5.0\""
+      }
+    },
+    {
+      "id": "io.pedestal/pedestal.jetty@\"0.5.7\"]",
+      "info": {
+        "name": "io.pedestal/pedestal.jetty",
+        "version": "\"0.5.7\"]"
+      }
+    },
+    {
+      "id": "javax.servlet/javax.servlet-api@\"3.1.0\"]",
+      "info": {
+        "name": "javax.servlet/javax.servlet-api",
+        "version": "\"3.1.0\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.alpn/alpn-api@\"1.1.3.v20160715\"]",
+      "info": {
+        "name": "org.eclipse.jetty.alpn/alpn-api",
+        "version": "\"1.1.3.v20160715\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.http2/http2-server@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.http2/http2-server",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.http2/http2-common@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.http2/http2-common",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.http2/http2-hpack@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.http2/http2-hpack",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.websocket/websocket-api@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.websocket/websocket-api",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.websocket/websocket-server@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.websocket/websocket-server",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.websocket/websocket-client@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.websocket/websocket-client",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-client@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-client",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-xml@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-xml",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.websocket/websocket-common@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.websocket/websocket-common",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty.websocket/websocket-servlet@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty.websocket/websocket-servlet",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-alpn-server@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-alpn-server",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-server@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-server",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-http@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-http",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-util@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-util",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-io@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-io",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-servlet@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-servlet",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "org.eclipse.jetty/jetty-security@\"9.4.18.v20190429\"]",
+      "info": {
+        "name": "org.eclipse.jetty/jetty-security",
+        "version": "\"9.4.18.v20190429\"]"
+      }
+    },
+    {
+      "id": "io.pedestal/pedestal.service-tools@\"0.5.7\"",
+      "info": {
+        "name": "io.pedestal/pedestal.service-tools",
+        "version": "\"0.5.7\""
+      }
+    },
+    {
+      "id": "ns-tracker@\"0.4.0\"",
+      "info": {
+        "name": "ns-tracker",
+        "version": "\"0.4.0\""
+      }
+    },
+    {
+      "id": "org.clojure/java.classpath@\"0.3.0\"",
+      "info": {
+        "name": "org.clojure/java.classpath",
+        "version": "\"0.3.0\""
+      }
+    },
+    {
+      "id": "org.clojure/tools.namespace@\"0.2.11\"",
+      "info": {
+        "name": "org.clojure/tools.namespace",
+        "version": "\"0.2.11\""
+      }
+    },
+    {
+      "id": "org.clojure/data.xml@\"0.2.0-alpha5\"",
+      "info": {
+        "name": "org.clojure/data.xml",
+        "version": "\"0.2.0-alpha5\""
+      }
+    },
+    {
+      "id": "org.clojure/data.codec@\"0.1.0\"",
+      "info": {
+        "name": "org.clojure/data.codec",
+        "version": "\"0.1.0\""
+      }
+    },
+    {
+      "id": "io.pedestal/pedestal.service@\"0.5.7\"]",
+      "info": {
+        "name": "io.pedestal/pedestal.service",
+        "version": "\"0.5.7\"]"
+      }
+    },
+    {
+      "id": "cheshire@\"5.8.1\"]",
+      "info": {
+        "name": "cheshire",
+        "version": "\"5.8.1\"]"
+      }
+    },
+    {
+      "id": "com.fasterxml.jackson.core/jackson-core@\"2.9.6\"]",
+      "info": {
+        "name": "com.fasterxml.jackson.core/jackson-core",
+        "version": "\"2.9.6\"]"
+      }
+    },
+    {
+      "id": "com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@\"2.9.6\"]",
+      "info": {
+        "name": "com.fasterxml.jackson.dataformat/jackson-dataformat-cbor",
+        "version": "\"2.9.6\"]"
+      }
+    },
+    {
+      "id": "com.fasterxml.jackson.dataformat/jackson-dataformat-smile@\"2.9.6\"]",
+      "info": {
+        "name": "com.fasterxml.jackson.dataformat/jackson-dataformat-smile",
+        "version": "\"2.9.6\"]"
+      }
+    },
+    {
+      "id": "tigris@\"0.1.1\"]",
+      "info": {
+        "name": "tigris",
+        "version": "\"0.1.1\"]"
+      }
+    },
+    {
+      "id": "com.cognitect/transit-clj@\"0.8.313\"]",
+      "info": {
+        "name": "com.cognitect/transit-clj",
+        "version": "\"0.8.313\"]"
+      }
+    },
+    {
+      "id": "com.cognitect/transit-java@\"0.8.337\"]",
+      "info": {
+        "name": "com.cognitect/transit-java",
+        "version": "\"0.8.337\"]"
+      }
+    },
+    {
+      "id": "javax.xml.bind/jaxb-api@\"2.3.0\"]",
+      "info": {
+        "name": "javax.xml.bind/jaxb-api",
+        "version": "\"2.3.0\"]"
+      }
+    },
+    {
+      "id": "org.msgpack/msgpack@\"0.6.12\"]",
+      "info": {
+        "name": "org.msgpack/msgpack",
+        "version": "\"0.6.12\"]"
+      }
+    },
+    {
+      "id": "com.googlecode.json-simple/json-simple@\"1.1.1\"",
+      "info": {
+        "name": "com.googlecode.json-simple/json-simple",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.javassist/javassist@\"3.18.1-GA\"]",
+      "info": {
+        "name": "org.javassist/javassist",
+        "version": "\"3.18.1-GA\"]"
+      }
+    },
+    {
+      "id": "commons-codec@\"1.12\"]",
+      "info": {
+        "name": "commons-codec",
+        "version": "\"1.12\"]"
+      }
+    },
+    {
+      "id": "crypto-equality@\"1.0.0\"]",
+      "info": {
+        "name": "crypto-equality",
+        "version": "\"1.0.0\"]"
+      }
+    },
+    {
+      "id": "crypto-random@\"1.2.0\"",
+      "info": {
+        "name": "crypto-random",
+        "version": "\"1.2.0\""
+      }
+    },
+    {
+      "id": "io.pedestal/pedestal.interceptor@\"0.5.7\"]",
+      "info": {
+        "name": "io.pedestal/pedestal.interceptor",
+        "version": "\"0.5.7\"]"
+      }
+    },
+    {
+      "id": "org.clojure/core.match@\"0.3.0\"",
+      "info": {
+        "name": "org.clojure/core.match",
+        "version": "\"0.3.0\""
+      }
+    },
+    {
+      "id": "io.pedestal/pedestal.log@\"0.5.7\"]",
+      "info": {
+        "name": "io.pedestal/pedestal.log",
+        "version": "\"0.5.7\"]"
+      }
+    },
+    {
+      "id": "io.dropwizard.metrics/metrics-core@\"4.1.0\"]",
+      "info": {
+        "name": "io.dropwizard.metrics/metrics-core",
+        "version": "\"4.1.0\"]"
+      }
+    },
+    {
+      "id": "io.dropwizard.metrics/metrics-jmx@\"4.1.0\"]",
+      "info": {
+        "name": "io.dropwizard.metrics/metrics-jmx",
+        "version": "\"4.1.0\"]"
+      }
+    },
+    {
+      "id": "io.opentracing/opentracing-api@\"0.33.0\"]",
+      "info": {
+        "name": "io.opentracing/opentracing-api",
+        "version": "\"0.33.0\"]"
+      }
+    },
+    {
+      "id": "io.opentracing/opentracing-util@\"0.33.0\"]",
+      "info": {
+        "name": "io.opentracing/opentracing-util",
+        "version": "\"0.33.0\"]"
+      }
+    },
+    {
+      "id": "io.opentracing/opentracing-noop@\"0.33.0\"]",
+      "info": {
+        "name": "io.opentracing/opentracing-noop",
+        "version": "\"0.33.0\"]"
+      }
+    },
+    {
+      "id": "io.pedestal/pedestal.route@\"0.5.7\"]",
+      "info": {
+        "name": "io.pedestal/pedestal.route",
+        "version": "\"0.5.7\"]"
+      }
+    },
+    {
+      "id": "org.clojure/core.incubator@\"0.1.4\"]",
+      "info": {
+        "name": "org.clojure/core.incubator",
+        "version": "\"0.1.4\"]"
+      }
+    },
+    {
+      "id": "org.clojure/core.async@\"0.4.490\"",
+      "info": {
+        "name": "org.clojure/core.async",
+        "version": "\"0.4.490\""
+      }
+    },
+    {
+      "id": "org.clojure/tools.analyzer.jvm@\"0.7.2\"]",
+      "info": {
+        "name": "org.clojure/tools.analyzer.jvm",
+        "version": "\"0.7.2\"]"
+      }
+    },
+    {
+      "id": "org.clojure/core.memoize@\"0.5.9\"]",
+      "info": {
+        "name": "org.clojure/core.memoize",
+        "version": "\"0.5.9\"]"
+      }
+    },
+    {
+      "id": "org.clojure/core.cache@\"0.6.5\"]",
+      "info": {
+        "name": "org.clojure/core.cache",
+        "version": "\"0.6.5\"]"
+      }
+    },
+    {
+      "id": "org.clojure/data.priority-map@\"0.0.7\"]",
+      "info": {
+        "name": "org.clojure/data.priority-map",
+        "version": "\"0.0.7\"]"
+      }
+    },
+    {
+      "id": "org.clojure/tools.analyzer@\"0.6.9\"]",
+      "info": {
+        "name": "org.clojure/tools.analyzer",
+        "version": "\"0.6.9\"]"
+      }
+    },
+    {
+      "id": "org.ow2.asm/asm-all@\"4.2\"]",
+      "info": {
+        "name": "org.ow2.asm/asm-all",
+        "version": "\"4.2\"]"
+      }
+    },
+    {
+      "id": "org.clojure/tools.reader@\"1.3.2\"]",
+      "info": {
+        "name": "org.clojure/tools.reader",
+        "version": "\"1.3.2\"]"
+      }
+    },
+    {
+      "id": "ring/ring-core@\"1.7.1\"",
+      "info": {
+        "name": "ring/ring-core",
+        "version": "\"1.7.1\""
+      }
+    },
+    {
+      "id": "clj-time@\"0.14.3\"]",
+      "info": {
+        "name": "clj-time",
+        "version": "\"0.14.3\"]"
+      }
+    },
+    {
+      "id": "joda-time@\"2.9.9\"]",
+      "info": {
+        "name": "joda-time",
+        "version": "\"2.9.9\"]"
+      }
+    },
+    {
+      "id": "commons-fileupload@\"1.3.3\"]",
+      "info": {
+        "name": "commons-fileupload",
+        "version": "\"1.3.3\"]"
+      }
+    },
+    {
+      "id": "commons-io@\"2.6\"]",
+      "info": {
+        "name": "commons-io",
+        "version": "\"2.6\"]"
+      }
+    },
+    {
+      "id": "ring/ring-codec@\"1.1.1\"]",
+      "info": {
+        "name": "ring/ring-codec",
+        "version": "\"1.1.1\"]"
+      }
+    },
+    {
+      "id": "me.raynes/fs@\"1.4.6\"]",
+      "info": {
+        "name": "me.raynes/fs",
+        "version": "\"1.4.6\"]"
+      }
+    },
+    {
+      "id": "org.apache.commons/commons-compress@\"1.8\"]",
+      "info": {
+        "name": "org.apache.commons/commons-compress",
+        "version": "\"1.8\"]"
+      }
+    },
+    {
+      "id": "org.tukaani/xz@\"1.5\"]",
+      "info": {
+        "name": "org.tukaani/xz",
+        "version": "\"1.5\"]"
+      }
+    },
+    {
+      "id": "nrepl@\"0.6.0\"",
+      "info": {
+        "name": "nrepl",
+        "version": "\"0.6.0\""
+      }
+    },
+    {
+      "id": "org.clojure/clojure@\"1.10.1\"]",
+      "info": {
+        "name": "org.clojure/clojure",
+        "version": "\"1.10.1\"]"
+      }
+    },
+    {
+      "id": "org.clojure/core.specs.alpha@\"0.2.44\"]",
+      "info": {
+        "name": "org.clojure/core.specs.alpha",
+        "version": "\"0.2.44\"]"
+      }
+    },
+    {
+      "id": "org.clojure/spec.alpha@\"0.2.176\"]",
+      "info": {
+        "name": "org.clojure/spec.alpha",
+        "version": "\"0.2.176\"]"
+      }
+    },
+    {
+      "id": "org.clojure/tools.deps.alpha@\"0.8.599\"",
+      "info": {
+        "name": "org.clojure/tools.deps.alpha",
+        "version": "\"0.8.599\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-api@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-api",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-connector-basic@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-connector-basic",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-impl@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-impl",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-spi@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-spi",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-transport-file@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-transport-file",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-transport-http@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-transport-http",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.httpcomponents/httpclient@\"4.5.4\"",
+      "info": {
+        "name": "org.apache.httpcomponents/httpclient",
+        "version": "\"4.5.4\""
+      }
+    },
+    {
+      "id": "org.apache.httpcomponents/httpcore@\"4.4.8\"",
+      "info": {
+        "name": "org.apache.httpcomponents/httpcore",
+        "version": "\"4.4.8\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-transport-wagon@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-transport-wagon",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven.wagon/wagon-provider-api@\"3.0.0\"",
+      "info": {
+        "name": "org.apache.maven.wagon/wagon-provider-api",
+        "version": "\"3.0.0\""
+      }
+    },
+    {
+      "id": "org.apache.maven.resolver/maven-resolver-util@\"1.1.1\"",
+      "info": {
+        "name": "org.apache.maven.resolver/maven-resolver-util",
+        "version": "\"1.1.1\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-core@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-core",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "com.google.inject/guice@\"4.0\"",
+      "info": {
+        "name": "com.google.inject/guice",
+        "version": "\"4.0\""
+      }
+    },
+    {
+      "id": "aopalliance@\"1.0\"",
+      "info": {
+        "name": "aopalliance",
+        "version": "\"1.0\""
+      }
+    },
+    {
+      "id": "org.apache.maven.shared/maven-shared-utils@\"3.1.0\"",
+      "info": {
+        "name": "org.apache.maven.shared/maven-shared-utils",
+        "version": "\"3.1.0\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-artifact@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-artifact",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-builder-support@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-builder-support",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-plugin-api@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-plugin-api",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-settings-builder@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-settings-builder",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.sonatype.plexus/plexus-sec-dispatcher@\"1.4\"",
+      "info": {
+        "name": "org.sonatype.plexus/plexus-sec-dispatcher",
+        "version": "\"1.4\""
+      }
+    },
+    {
+      "id": "org.sonatype.plexus/plexus-cipher@\"1.4\"",
+      "info": {
+        "name": "org.sonatype.plexus/plexus-cipher",
+        "version": "\"1.4\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-settings@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-settings",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.codehaus.plexus/plexus-classworlds@\"2.5.2\"",
+      "info": {
+        "name": "org.codehaus.plexus/plexus-classworlds",
+        "version": "\"2.5.2\""
+      }
+    },
+    {
+      "id": "org.codehaus.plexus/plexus-component-annotations@\"1.7.1\"",
+      "info": {
+        "name": "org.codehaus.plexus/plexus-component-annotations",
+        "version": "\"1.7.1\""
+      }
+    },
+    {
+      "id": "org.eclipse.sisu/org.eclipse.sisu.inject@\"0.3.3\"",
+      "info": {
+        "name": "org.eclipse.sisu/org.eclipse.sisu.inject",
+        "version": "\"0.3.3\""
+      }
+    },
+    {
+      "id": "org.eclipse.sisu/org.eclipse.sisu.plexus@\"0.3.3\"",
+      "info": {
+        "name": "org.eclipse.sisu/org.eclipse.sisu.plexus",
+        "version": "\"0.3.3\""
+      }
+    },
+    {
+      "id": "javax.enterprise/cdi-api@\"1.0\"",
+      "info": {
+        "name": "javax.enterprise/cdi-api",
+        "version": "\"1.0\""
+      }
+    },
+    {
+      "id": "javax.annotation/jsr250-api@\"1.0\"",
+      "info": {
+        "name": "javax.annotation/jsr250-api",
+        "version": "\"1.0\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-resolver-provider@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-resolver-provider",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "com.google.guava/guava@\"20.0\"",
+      "info": {
+        "name": "com.google.guava/guava",
+        "version": "\"20.0\""
+      }
+    },
+    {
+      "id": "javax.inject@\"1\"",
+      "info": {
+        "name": "javax.inject",
+        "version": "\"1\""
+      }
+    },
+    {
+      "id": "org.apache.commons/commons-lang3@\"3.5\"",
+      "info": {
+        "name": "org.apache.commons/commons-lang3",
+        "version": "\"3.5\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-model-builder@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-model-builder",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.codehaus.plexus/plexus-interpolation@\"1.24\"",
+      "info": {
+        "name": "org.codehaus.plexus/plexus-interpolation",
+        "version": "\"1.24\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-model@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-model",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.apache.maven/maven-repository-metadata@\"3.5.2\"",
+      "info": {
+        "name": "org.apache.maven/maven-repository-metadata",
+        "version": "\"3.5.2\""
+      }
+    },
+    {
+      "id": "org.codehaus.plexus/plexus-utils@\"3.1.0\"",
+      "info": {
+        "name": "org.codehaus.plexus/plexus-utils",
+        "version": "\"3.1.0\""
+      }
+    },
+    {
+      "id": "org.clojure/tools.cli@\"0.3.5\"",
+      "info": {
+        "name": "org.clojure/tools.cli",
+        "version": "\"0.3.5\""
+      }
+    },
+    {
+      "id": "org.clojure/tools.gitlibs@\"0.2.64\"",
+      "info": {
+        "name": "org.clojure/tools.gitlibs",
+        "version": "\"0.2.64\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.connector-factory@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.connector-factory",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.core@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.core",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.pageant@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.pageant",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.sshagent@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.sshagent",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.usocket-jna@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.usocket-jna",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "net.java.dev.jna/jna-platform@\"4.1.0\"",
+      "info": {
+        "name": "net.java.dev.jna/jna-platform",
+        "version": "\"4.1.0\""
+      }
+    },
+    {
+      "id": "net.java.dev.jna/jna@\"4.1.0\"",
+      "info": {
+        "name": "net.java.dev.jna/jna",
+        "version": "\"4.1.0\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.usocket-nc@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.usocket-nc",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch.agentproxy.jsch@\"0.0.9\"",
+      "info": {
+        "name": "com.jcraft/jsch.agentproxy.jsch",
+        "version": "\"0.0.9\""
+      }
+    },
+    {
+      "id": "org.eclipse.jgit@\"4.10.0.201712302008-r\"",
+      "info": {
+        "name": "org.eclipse.jgit",
+        "version": "\"4.10.0.201712302008-r\""
+      }
+    },
+    {
+      "id": "com.googlecode.javaewah/JavaEWAH@\"1.1.6\"",
+      "info": {
+        "name": "com.googlecode.javaewah/JavaEWAH",
+        "version": "\"1.1.6\""
+      }
+    },
+    {
+      "id": "com.jcraft/jsch@\"0.1.54\"",
+      "info": {
+        "name": "com.jcraft/jsch",
+        "version": "\"0.1.54\""
+      }
+    },
+    {
+      "id": "org.springframework.build/aws-maven@\"5.0.0.RELEASE\"",
+      "info": {
+        "name": "org.springframework.build/aws-maven",
+        "version": "\"5.0.0.RELEASE\""
+      }
+    },
+    {
+      "id": "s3-wagon-private@\"1.3.1\"",
+      "info": {
+        "name": "s3-wagon-private",
+        "version": "\"1.3.1\""
+      }
+    },
+    {
+      "id": "com.amazonaws/aws-java-sdk-s3@\"1.11.184\"",
+      "info": {
+        "name": "com.amazonaws/aws-java-sdk-s3",
+        "version": "\"1.11.184\""
+      }
+    },
+    {
+      "id": "com.amazonaws/aws-java-sdk-core@\"1.11.184\"",
+      "info": {
+        "name": "com.amazonaws/aws-java-sdk-core",
+        "version": "\"1.11.184\""
+      }
+    },
+    {
+      "id": "commons-logging@\"1.1.3\"",
+      "info": {
+        "name": "commons-logging",
+        "version": "\"1.1.3\""
+      }
+    },
+    {
+      "id": "software.amazon.ion/ion-java@\"1.0.2\"",
+      "info": {
+        "name": "software.amazon.ion/ion-java",
+        "version": "\"1.0.2\""
+      }
+    },
+    {
+      "id": "com.amazonaws/aws-java-sdk-kms@\"1.11.184\"",
+      "info": {
+        "name": "com.amazonaws/aws-java-sdk-kms",
+        "version": "\"1.11.184\""
+      }
+    },
+    {
+      "id": "com.amazonaws/jmespath-java@\"1.11.184\"",
+      "info": {
+        "name": "com.amazonaws/jmespath-java",
+        "version": "\"1.11.184\""
+      }
+    },
+    {
+      "id": "com.fasterxml.jackson.core/jackson-databind@\"2.5.5\"",
+      "info": {
+        "name": "com.fasterxml.jackson.core/jackson-databind",
+        "version": "\"2.5.5\""
+      }
+    },
+    {
+      "id": "com.fasterxml.jackson.core/jackson-annotations@\"2.5.0\"",
+      "info": {
+        "name": "com.fasterxml.jackson.core/jackson-annotations",
+        "version": "\"2.5.0\""
+      }
+    },
+    {
+      "id": "org.slf4j/jcl-over-slf4j@\"1.7.26\"]",
+      "info": {
+        "name": "org.slf4j/jcl-over-slf4j",
+        "version": "\"1.7.26\"]"
+      }
+    },
+    {
+      "id": "org.slf4j/jul-to-slf4j@\"1.7.26\"]",
+      "info": {
+        "name": "org.slf4j/jul-to-slf4j",
+        "version": "\"1.7.26\"]"
+      }
+    },
+    {
+      "id": "org.slf4j/slf4j-api@\"1.7.26\"]",
+      "info": {
+        "name": "org.slf4j/slf4j-api",
+        "version": "\"1.7.26\"]"
+      }
+    },
+    {
+      "id": "org.slf4j/log4j-over-slf4j@\"1.7.26\"]",
+      "info": {
+        "name": "org.slf4j/log4j-over-slf4j",
+        "version": "\"1.7.26\"]"
+      }
+    }
+  ],
+  "graph": {
+    "rootNodeId": "root-node",
+    "nodes": [
+      {
+        "nodeId": "root-node",
+        "pkgId": "testing@0.0.87",
+        "just-in-fixture": true,
+        "deps": [
+          {
+            "nodeId": "ch.qos.logback/logback-classic@\"1.2.3\""
+          },
+          {
+            "nodeId": "clojure-complete@\"0.2.5\""
+          },
+          {
+            "nodeId": "com.taoensso/tufte@\"2.1.0\""
+          },
+          {
+            "nodeId": "io.pedestal/pedestal.jetty@\"0.5.7\"]"
+          },
+          {
+            "nodeId": "io.pedestal/pedestal.service-tools@\"0.5.7\""
+          },
+          {
+            "nodeId": "io.pedestal/pedestal.service@\"0.5.7\"]"
+          },
+          {
+            "nodeId": "me.raynes/fs@\"1.4.6\"]"
+          },
+          {
+            "nodeId": "nrepl@\"0.6.0\""
+          },
+          {
+            "nodeId": "org.clojure/clojure@\"1.10.1\"]"
+          },
+          {
+            "nodeId": "org.clojure/tools.deps.alpha@\"0.8.599\""
+          },
+          {
+            "nodeId": "org.slf4j/jcl-over-slf4j@\"1.7.26\"]"
+          },
+          {
+            "nodeId": "org.slf4j/jul-to-slf4j@\"1.7.26\"]"
+          },
+          {
+            "nodeId": "org.slf4j/log4j-over-slf4j@\"1.7.26\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "ch.qos.logback/logback-classic@\"1.2.3\"",
+        "pkgId": "ch.qos.logback/logback-classic@\"1.2.3\"",
+        "deps": [
+          {
+            "nodeId": "ch.qos.logback/logback-core@\"1.2.3\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "ch.qos.logback/logback-core@\"1.2.3\"]",
+        "pkgId": "ch.qos.logback/logback-core@\"1.2.3\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "clojure-complete@\"0.2.5\"",
+        "pkgId": "clojure-complete@\"0.2.5\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.taoensso/tufte@\"2.1.0\"",
+        "pkgId": "com.taoensso/tufte@\"2.1.0\"",
+        "deps": [
+          {
+            "nodeId": "com.taoensso/encore@\"2.115.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.taoensso/encore@\"2.115.0\"",
+        "pkgId": "com.taoensso/encore@\"2.115.0\"",
+        "deps": [
+          {
+            "nodeId": "com.taoensso/truss@\"1.5.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.taoensso/truss@\"1.5.0\"",
+        "pkgId": "com.taoensso/truss@\"1.5.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "io.pedestal/pedestal.jetty@\"0.5.7\"]",
+        "pkgId": "io.pedestal/pedestal.jetty@\"0.5.7\"]",
+        "deps": [
+          {
+            "nodeId": "javax.servlet/javax.servlet-api@\"3.1.0\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty.alpn/alpn-api@\"1.1.3.v20160715\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty.http2/http2-server@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty.websocket/websocket-api@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty.websocket/websocket-server@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty.websocket/websocket-servlet@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty/jetty-alpn-server@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty/jetty-server@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty/jetty-servlet@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "javax.servlet/javax.servlet-api@\"3.1.0\"]",
+        "pkgId": "javax.servlet/javax.servlet-api@\"3.1.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty.alpn/alpn-api@\"1.1.3.v20160715\"]",
+        "pkgId": "org.eclipse.jetty.alpn/alpn-api@\"1.1.3.v20160715\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty.http2/http2-server@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.http2/http2-server@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty.http2/http2-common@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty.http2/http2-common@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.http2/http2-common@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty.http2/http2-hpack@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty.http2/http2-hpack@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.http2/http2-hpack@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty.websocket/websocket-api@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.websocket/websocket-api@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty.websocket/websocket-server@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.websocket/websocket-server@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty.websocket/websocket-client@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty.websocket/websocket-common@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty.websocket/websocket-client@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.websocket/websocket-client@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty/jetty-client@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty/jetty-xml@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-client@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-client@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-xml@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-xml@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty.websocket/websocket-common@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.websocket/websocket-common@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty.websocket/websocket-servlet@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty.websocket/websocket-servlet@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-alpn-server@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-alpn-server@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-server@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-server@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty/jetty-http@\"9.4.18.v20190429\"]"
+          },
+          {
+            "nodeId": "org.eclipse.jetty/jetty-io@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-http@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-http@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty/jetty-util@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-util@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-util@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-io@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-io@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-servlet@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-servlet@\"9.4.18.v20190429\"]",
+        "deps": [
+          {
+            "nodeId": "org.eclipse.jetty/jetty-security@\"9.4.18.v20190429\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.eclipse.jetty/jetty-security@\"9.4.18.v20190429\"]",
+        "pkgId": "org.eclipse.jetty/jetty-security@\"9.4.18.v20190429\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "io.pedestal/pedestal.service-tools@\"0.5.7\"",
+        "pkgId": "io.pedestal/pedestal.service-tools@\"0.5.7\"",
+        "deps": [
+          {
+            "nodeId": "ns-tracker@\"0.4.0\""
+          },
+          {
+            "nodeId": "org.clojure/data.xml@\"0.2.0-alpha5\""
+          }
+        ]
+      },
+      {
+        "nodeId": "ns-tracker@\"0.4.0\"",
+        "pkgId": "ns-tracker@\"0.4.0\"",
+        "deps": [
+          {
+            "nodeId": "org.clojure/java.classpath@\"0.3.0\""
+          },
+          {
+            "nodeId": "org.clojure/tools.namespace@\"0.2.11\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/java.classpath@\"0.3.0\"",
+        "pkgId": "org.clojure/java.classpath@\"0.3.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.namespace@\"0.2.11\"",
+        "pkgId": "org.clojure/tools.namespace@\"0.2.11\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/data.xml@\"0.2.0-alpha5\"",
+        "pkgId": "org.clojure/data.xml@\"0.2.0-alpha5\"",
+        "deps": [
+          {
+            "nodeId": "org.clojure/data.codec@\"0.1.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/data.codec@\"0.1.0\"",
+        "pkgId": "org.clojure/data.codec@\"0.1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "io.pedestal/pedestal.service@\"0.5.7\"]",
+        "pkgId": "io.pedestal/pedestal.service@\"0.5.7\"]",
+        "deps": [
+          {
+            "nodeId": "cheshire@\"5.8.1\"]"
+          },
+          {
+            "nodeId": "com.cognitect/transit-clj@\"0.8.313\"]"
+          },
+          {
+            "nodeId": "commons-codec@\"1.12\"]"
+          },
+          {
+            "nodeId": "crypto-equality@\"1.0.0\"]"
+          },
+          {
+            "nodeId": "crypto-random@\"1.2.0\""
+          },
+          {
+            "nodeId": "io.pedestal/pedestal.interceptor@\"0.5.7\"]"
+          },
+          {
+            "nodeId": "io.pedestal/pedestal.log@\"0.5.7\"]"
+          },
+          {
+            "nodeId": "io.pedestal/pedestal.route@\"0.5.7\"]"
+          },
+          {
+            "nodeId": "org.clojure/core.async@\"0.4.490\""
+          },
+          {
+            "nodeId": "org.clojure/tools.analyzer.jvm@\"0.7.2\"]"
+          },
+          {
+            "nodeId": "org.clojure/tools.reader@\"1.3.2\"]"
+          },
+          {
+            "nodeId": "ring/ring-core@\"1.7.1\""
+          }
+        ]
+      },
+      {
+        "nodeId": "cheshire@\"5.8.1\"]",
+        "pkgId": "cheshire@\"5.8.1\"]",
+        "deps": [
+          {
+            "nodeId": "com.fasterxml.jackson.core/jackson-core@\"2.9.6\"]"
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@\"2.9.6\"]"
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.dataformat/jackson-dataformat-smile@\"2.9.6\"]"
+          },
+          {
+            "nodeId": "tigris@\"0.1.1\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "com.fasterxml.jackson.core/jackson-core@\"2.9.6\"]",
+        "pkgId": "com.fasterxml.jackson.core/jackson-core@\"2.9.6\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@\"2.9.6\"]",
+        "pkgId": "com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@\"2.9.6\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "com.fasterxml.jackson.dataformat/jackson-dataformat-smile@\"2.9.6\"]",
+        "pkgId": "com.fasterxml.jackson.dataformat/jackson-dataformat-smile@\"2.9.6\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "tigris@\"0.1.1\"]",
+        "pkgId": "tigris@\"0.1.1\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "com.cognitect/transit-clj@\"0.8.313\"]",
+        "pkgId": "com.cognitect/transit-clj@\"0.8.313\"]",
+        "deps": [
+          {
+            "nodeId": "com.cognitect/transit-java@\"0.8.337\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "com.cognitect/transit-java@\"0.8.337\"]",
+        "pkgId": "com.cognitect/transit-java@\"0.8.337\"]",
+        "deps": [
+          {
+            "nodeId": "javax.xml.bind/jaxb-api@\"2.3.0\"]"
+          },
+          {
+            "nodeId": "org.msgpack/msgpack@\"0.6.12\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "javax.xml.bind/jaxb-api@\"2.3.0\"]",
+        "pkgId": "javax.xml.bind/jaxb-api@\"2.3.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.msgpack/msgpack@\"0.6.12\"]",
+        "pkgId": "org.msgpack/msgpack@\"0.6.12\"]",
+        "deps": [
+          {
+            "nodeId": "com.googlecode.json-simple/json-simple@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.javassist/javassist@\"3.18.1-GA\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "com.googlecode.json-simple/json-simple@\"1.1.1\"",
+        "pkgId": "com.googlecode.json-simple/json-simple@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.javassist/javassist@\"3.18.1-GA\"]",
+        "pkgId": "org.javassist/javassist@\"3.18.1-GA\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "commons-codec@\"1.12\"]",
+        "pkgId": "commons-codec@\"1.12\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "crypto-equality@\"1.0.0\"]",
+        "pkgId": "crypto-equality@\"1.0.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "crypto-random@\"1.2.0\"",
+        "pkgId": "crypto-random@\"1.2.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "io.pedestal/pedestal.interceptor@\"0.5.7\"]",
+        "pkgId": "io.pedestal/pedestal.interceptor@\"0.5.7\"]",
+        "deps": [
+          {
+            "nodeId": "org.clojure/core.match@\"0.3.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/core.match@\"0.3.0\"",
+        "pkgId": "org.clojure/core.match@\"0.3.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "io.pedestal/pedestal.log@\"0.5.7\"]",
+        "pkgId": "io.pedestal/pedestal.log@\"0.5.7\"]",
+        "deps": [
+          {
+            "nodeId": "io.dropwizard.metrics/metrics-core@\"4.1.0\"]"
+          },
+          {
+            "nodeId": "io.dropwizard.metrics/metrics-jmx@\"4.1.0\"]"
+          },
+          {
+            "nodeId": "io.opentracing/opentracing-api@\"0.33.0\"]"
+          },
+          {
+            "nodeId": "io.opentracing/opentracing-util@\"0.33.0\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "io.dropwizard.metrics/metrics-core@\"4.1.0\"]",
+        "pkgId": "io.dropwizard.metrics/metrics-core@\"4.1.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "io.dropwizard.metrics/metrics-jmx@\"4.1.0\"]",
+        "pkgId": "io.dropwizard.metrics/metrics-jmx@\"4.1.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "io.opentracing/opentracing-api@\"0.33.0\"]",
+        "pkgId": "io.opentracing/opentracing-api@\"0.33.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "io.opentracing/opentracing-util@\"0.33.0\"]",
+        "pkgId": "io.opentracing/opentracing-util@\"0.33.0\"]",
+        "deps": [
+          {
+            "nodeId": "io.opentracing/opentracing-noop@\"0.33.0\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "io.opentracing/opentracing-noop@\"0.33.0\"]",
+        "pkgId": "io.opentracing/opentracing-noop@\"0.33.0\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "io.pedestal/pedestal.route@\"0.5.7\"]",
+        "pkgId": "io.pedestal/pedestal.route@\"0.5.7\"]",
+        "deps": [
+          {
+            "nodeId": "org.clojure/core.incubator@\"0.1.4\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/core.incubator@\"0.1.4\"]",
+        "pkgId": "org.clojure/core.incubator@\"0.1.4\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/core.async@\"0.4.490\"",
+        "pkgId": "org.clojure/core.async@\"0.4.490\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.analyzer.jvm@\"0.7.2\"]",
+        "pkgId": "org.clojure/tools.analyzer.jvm@\"0.7.2\"]",
+        "deps": [
+          {
+            "nodeId": "org.clojure/core.memoize@\"0.5.9\"]"
+          },
+          {
+            "nodeId": "org.clojure/tools.analyzer@\"0.6.9\"]"
+          },
+          {
+            "nodeId": "org.ow2.asm/asm-all@\"4.2\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/core.memoize@\"0.5.9\"]",
+        "pkgId": "org.clojure/core.memoize@\"0.5.9\"]",
+        "deps": [
+          {
+            "nodeId": "org.clojure/core.cache@\"0.6.5\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/core.cache@\"0.6.5\"]",
+        "pkgId": "org.clojure/core.cache@\"0.6.5\"]",
+        "deps": [
+          {
+            "nodeId": "org.clojure/data.priority-map@\"0.0.7\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/data.priority-map@\"0.0.7\"]",
+        "pkgId": "org.clojure/data.priority-map@\"0.0.7\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.analyzer@\"0.6.9\"]",
+        "pkgId": "org.clojure/tools.analyzer@\"0.6.9\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.ow2.asm/asm-all@\"4.2\"]",
+        "pkgId": "org.ow2.asm/asm-all@\"4.2\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.reader@\"1.3.2\"]",
+        "pkgId": "org.clojure/tools.reader@\"1.3.2\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "ring/ring-core@\"1.7.1\"",
+        "pkgId": "ring/ring-core@\"1.7.1\"",
+        "deps": [
+          {
+            "nodeId": "clj-time@\"0.14.3\"]"
+          },
+          {
+            "nodeId": "commons-fileupload@\"1.3.3\"]"
+          },
+          {
+            "nodeId": "commons-io@\"2.6\"]"
+          },
+          {
+            "nodeId": "ring/ring-codec@\"1.1.1\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "clj-time@\"0.14.3\"]",
+        "pkgId": "clj-time@\"0.14.3\"]",
+        "deps": [
+          {
+            "nodeId": "joda-time@\"2.9.9\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "joda-time@\"2.9.9\"]",
+        "pkgId": "joda-time@\"2.9.9\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "commons-fileupload@\"1.3.3\"]",
+        "pkgId": "commons-fileupload@\"1.3.3\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "commons-io@\"2.6\"]",
+        "pkgId": "commons-io@\"2.6\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "ring/ring-codec@\"1.1.1\"]",
+        "pkgId": "ring/ring-codec@\"1.1.1\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "me.raynes/fs@\"1.4.6\"]",
+        "pkgId": "me.raynes/fs@\"1.4.6\"]",
+        "deps": [
+          {
+            "nodeId": "org.apache.commons/commons-compress@\"1.8\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.apache.commons/commons-compress@\"1.8\"]",
+        "pkgId": "org.apache.commons/commons-compress@\"1.8\"]",
+        "deps": [
+          {
+            "nodeId": "org.tukaani/xz@\"1.5\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.tukaani/xz@\"1.5\"]",
+        "pkgId": "org.tukaani/xz@\"1.5\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "nrepl@\"0.6.0\"",
+        "pkgId": "nrepl@\"0.6.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/clojure@\"1.10.1\"]",
+        "pkgId": "org.clojure/clojure@\"1.10.1\"]",
+        "deps": [
+          {
+            "nodeId": "org.clojure/core.specs.alpha@\"0.2.44\"]"
+          },
+          {
+            "nodeId": "org.clojure/spec.alpha@\"0.2.176\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.clojure/core.specs.alpha@\"0.2.44\"]",
+        "pkgId": "org.clojure/core.specs.alpha@\"0.2.44\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/spec.alpha@\"0.2.176\"]",
+        "pkgId": "org.clojure/spec.alpha@\"0.2.176\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.deps.alpha@\"0.8.599\"",
+        "pkgId": "org.clojure/tools.deps.alpha@\"0.8.599\"",
+        "deps": [
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-api@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-connector-basic@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-impl@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-spi@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-transport-file@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-transport-http@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-transport-wagon@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven.resolver/maven-resolver-util@\"1.1.1\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-core@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-resolver-provider@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.clojure/tools.cli@\"0.3.5\""
+          },
+          {
+            "nodeId": "org.clojure/tools.gitlibs@\"0.2.64\""
+          },
+          {
+            "nodeId": "org.springframework.build/aws-maven@\"5.0.0.RELEASE\""
+          },
+          {
+            "nodeId": "s3-wagon-private@\"1.3.1\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-api@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-api@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-connector-basic@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-connector-basic@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-impl@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-impl@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-spi@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-spi@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-transport-file@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-transport-file@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-transport-http@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-transport-http@\"1.1.1\"",
+        "deps": [
+          {
+            "nodeId": "org.apache.httpcomponents/httpclient@\"4.5.4\""
+          },
+          {
+            "nodeId": "org.apache.httpcomponents/httpcore@\"4.4.8\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.apache.httpcomponents/httpclient@\"4.5.4\"",
+        "pkgId": "org.apache.httpcomponents/httpclient@\"4.5.4\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.httpcomponents/httpcore@\"4.4.8\"",
+        "pkgId": "org.apache.httpcomponents/httpcore@\"4.4.8\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-transport-wagon@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-transport-wagon@\"1.1.1\"",
+        "deps": [
+          {
+            "nodeId": "org.apache.maven.wagon/wagon-provider-api@\"3.0.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.apache.maven.wagon/wagon-provider-api@\"3.0.0\"",
+        "pkgId": "org.apache.maven.wagon/wagon-provider-api@\"3.0.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.resolver/maven-resolver-util@\"1.1.1\"",
+        "pkgId": "org.apache.maven.resolver/maven-resolver-util@\"1.1.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-core@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-core@\"3.5.2\"",
+        "deps": [
+          {
+            "nodeId": "com.google.inject/guice@\"4.0\""
+          },
+          {
+            "nodeId": "org.apache.maven.shared/maven-shared-utils@\"3.1.0\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-artifact@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-builder-support@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-plugin-api@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-settings-builder@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-settings@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.codehaus.plexus/plexus-classworlds@\"2.5.2\""
+          },
+          {
+            "nodeId": "org.codehaus.plexus/plexus-component-annotations@\"1.7.1\""
+          },
+          {
+            "nodeId": "org.eclipse.sisu/org.eclipse.sisu.inject@\"0.3.3\""
+          },
+          {
+            "nodeId": "org.eclipse.sisu/org.eclipse.sisu.plexus@\"0.3.3\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.google.inject/guice@\"4.0\"",
+        "pkgId": "com.google.inject/guice@\"4.0\"",
+        "deps": [
+          {
+            "nodeId": "aopalliance@\"1.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "aopalliance@\"1.0\"",
+        "pkgId": "aopalliance@\"1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven.shared/maven-shared-utils@\"3.1.0\"",
+        "pkgId": "org.apache.maven.shared/maven-shared-utils@\"3.1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-artifact@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-artifact@\"3.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-builder-support@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-builder-support@\"3.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-plugin-api@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-plugin-api@\"3.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-settings-builder@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-settings-builder@\"3.5.2\"",
+        "deps": [
+          {
+            "nodeId": "org.sonatype.plexus/plexus-sec-dispatcher@\"1.4\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.sonatype.plexus/plexus-sec-dispatcher@\"1.4\"",
+        "pkgId": "org.sonatype.plexus/plexus-sec-dispatcher@\"1.4\"",
+        "deps": [
+          {
+            "nodeId": "org.sonatype.plexus/plexus-cipher@\"1.4\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.sonatype.plexus/plexus-cipher@\"1.4\"",
+        "pkgId": "org.sonatype.plexus/plexus-cipher@\"1.4\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-settings@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-settings@\"3.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.codehaus.plexus/plexus-classworlds@\"2.5.2\"",
+        "pkgId": "org.codehaus.plexus/plexus-classworlds@\"2.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.codehaus.plexus/plexus-component-annotations@\"1.7.1\"",
+        "pkgId": "org.codehaus.plexus/plexus-component-annotations@\"1.7.1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.sisu/org.eclipse.sisu.inject@\"0.3.3\"",
+        "pkgId": "org.eclipse.sisu/org.eclipse.sisu.inject@\"0.3.3\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.sisu/org.eclipse.sisu.plexus@\"0.3.3\"",
+        "pkgId": "org.eclipse.sisu/org.eclipse.sisu.plexus@\"0.3.3\"",
+        "deps": [
+          {
+            "nodeId": "javax.enterprise/cdi-api@\"1.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "javax.enterprise/cdi-api@\"1.0\"",
+        "pkgId": "javax.enterprise/cdi-api@\"1.0\"",
+        "deps": [
+          {
+            "nodeId": "javax.annotation/jsr250-api@\"1.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "javax.annotation/jsr250-api@\"1.0\"",
+        "pkgId": "javax.annotation/jsr250-api@\"1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-resolver-provider@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-resolver-provider@\"3.5.2\"",
+        "deps": [
+          {
+            "nodeId": "com.google.guava/guava@\"20.0\""
+          },
+          {
+            "nodeId": "javax.inject@\"1\""
+          },
+          {
+            "nodeId": "org.apache.commons/commons-lang3@\"3.5\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-model-builder@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-model@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.apache.maven/maven-repository-metadata@\"3.5.2\""
+          },
+          {
+            "nodeId": "org.codehaus.plexus/plexus-utils@\"3.1.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.google.guava/guava@\"20.0\"",
+        "pkgId": "com.google.guava/guava@\"20.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "javax.inject@\"1\"",
+        "pkgId": "javax.inject@\"1\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.commons/commons-lang3@\"3.5\"",
+        "pkgId": "org.apache.commons/commons-lang3@\"3.5\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-model-builder@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-model-builder@\"3.5.2\"",
+        "deps": [
+          {
+            "nodeId": "org.codehaus.plexus/plexus-interpolation@\"1.24\""
+          }
+        ]
+      },
+      {
+        "nodeId": "org.codehaus.plexus/plexus-interpolation@\"1.24\"",
+        "pkgId": "org.codehaus.plexus/plexus-interpolation@\"1.24\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-model@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-model@\"3.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.apache.maven/maven-repository-metadata@\"3.5.2\"",
+        "pkgId": "org.apache.maven/maven-repository-metadata@\"3.5.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.codehaus.plexus/plexus-utils@\"3.1.0\"",
+        "pkgId": "org.codehaus.plexus/plexus-utils@\"3.1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.cli@\"0.3.5\"",
+        "pkgId": "org.clojure/tools.cli@\"0.3.5\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.clojure/tools.gitlibs@\"0.2.64\"",
+        "pkgId": "org.clojure/tools.gitlibs@\"0.2.64\"",
+        "deps": [
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.connector-factory@\"0.0.9\""
+          },
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.jsch@\"0.0.9\""
+          },
+          {
+            "nodeId": "org.eclipse.jgit@\"4.10.0.201712302008-r\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.connector-factory@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.connector-factory@\"0.0.9\"",
+        "deps": [
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.core@\"0.0.9\""
+          },
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.pageant@\"0.0.9\""
+          },
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.sshagent@\"0.0.9\""
+          },
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.usocket-jna@\"0.0.9\""
+          },
+          {
+            "nodeId": "com.jcraft/jsch.agentproxy.usocket-nc@\"0.0.9\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.core@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.core@\"0.0.9\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.pageant@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.pageant@\"0.0.9\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.sshagent@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.sshagent@\"0.0.9\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.usocket-jna@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.usocket-jna@\"0.0.9\"",
+        "deps": [
+          {
+            "nodeId": "net.java.dev.jna/jna-platform@\"4.1.0\""
+          },
+          {
+            "nodeId": "net.java.dev.jna/jna@\"4.1.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "net.java.dev.jna/jna-platform@\"4.1.0\"",
+        "pkgId": "net.java.dev.jna/jna-platform@\"4.1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "net.java.dev.jna/jna@\"4.1.0\"",
+        "pkgId": "net.java.dev.jna/jna@\"4.1.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.usocket-nc@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.usocket-nc@\"0.0.9\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.jcraft/jsch.agentproxy.jsch@\"0.0.9\"",
+        "pkgId": "com.jcraft/jsch.agentproxy.jsch@\"0.0.9\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.eclipse.jgit@\"4.10.0.201712302008-r\"",
+        "pkgId": "org.eclipse.jgit@\"4.10.0.201712302008-r\"",
+        "deps": [
+          {
+            "nodeId": "com.googlecode.javaewah/JavaEWAH@\"1.1.6\""
+          },
+          {
+            "nodeId": "com.jcraft/jsch@\"0.1.54\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.googlecode.javaewah/JavaEWAH@\"1.1.6\"",
+        "pkgId": "com.googlecode.javaewah/JavaEWAH@\"1.1.6\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.jcraft/jsch@\"0.1.54\"",
+        "pkgId": "com.jcraft/jsch@\"0.1.54\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.springframework.build/aws-maven@\"5.0.0.RELEASE\"",
+        "pkgId": "org.springframework.build/aws-maven@\"5.0.0.RELEASE\"",
+        "deps": []
+      },
+      {
+        "nodeId": "s3-wagon-private@\"1.3.1\"",
+        "pkgId": "s3-wagon-private@\"1.3.1\"",
+        "deps": [
+          {
+            "nodeId": "com.amazonaws/aws-java-sdk-s3@\"1.11.184\""
+          },
+          {
+            "nodeId": "com.fasterxml.jackson.core/jackson-databind@\"2.5.5\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.amazonaws/aws-java-sdk-s3@\"1.11.184\"",
+        "pkgId": "com.amazonaws/aws-java-sdk-s3@\"1.11.184\"",
+        "deps": [
+          {
+            "nodeId": "com.amazonaws/aws-java-sdk-core@\"1.11.184\""
+          },
+          {
+            "nodeId": "com.amazonaws/aws-java-sdk-kms@\"1.11.184\""
+          },
+          {
+            "nodeId": "com.amazonaws/jmespath-java@\"1.11.184\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.amazonaws/aws-java-sdk-core@\"1.11.184\"",
+        "pkgId": "com.amazonaws/aws-java-sdk-core@\"1.11.184\"",
+        "deps": [
+          {
+            "nodeId": "commons-logging@\"1.1.3\""
+          },
+          {
+            "nodeId": "software.amazon.ion/ion-java@\"1.0.2\""
+          }
+        ]
+      },
+      {
+        "nodeId": "commons-logging@\"1.1.3\"",
+        "pkgId": "commons-logging@\"1.1.3\"",
+        "deps": []
+      },
+      {
+        "nodeId": "software.amazon.ion/ion-java@\"1.0.2\"",
+        "pkgId": "software.amazon.ion/ion-java@\"1.0.2\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.amazonaws/aws-java-sdk-kms@\"1.11.184\"",
+        "pkgId": "com.amazonaws/aws-java-sdk-kms@\"1.11.184\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.amazonaws/jmespath-java@\"1.11.184\"",
+        "pkgId": "com.amazonaws/jmespath-java@\"1.11.184\"",
+        "deps": []
+      },
+      {
+        "nodeId": "com.fasterxml.jackson.core/jackson-databind@\"2.5.5\"",
+        "pkgId": "com.fasterxml.jackson.core/jackson-databind@\"2.5.5\"",
+        "deps": [
+          {
+            "nodeId": "com.fasterxml.jackson.core/jackson-annotations@\"2.5.0\""
+          }
+        ]
+      },
+      {
+        "nodeId": "com.fasterxml.jackson.core/jackson-annotations@\"2.5.0\"",
+        "pkgId": "com.fasterxml.jackson.core/jackson-annotations@\"2.5.0\"",
+        "deps": []
+      },
+      {
+        "nodeId": "org.slf4j/jcl-over-slf4j@\"1.7.26\"]",
+        "pkgId": "org.slf4j/jcl-over-slf4j@\"1.7.26\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.slf4j/jul-to-slf4j@\"1.7.26\"]",
+        "pkgId": "org.slf4j/jul-to-slf4j@\"1.7.26\"]",
+        "deps": [
+          {
+            "nodeId": "org.slf4j/slf4j-api@\"1.7.26\"]"
+          }
+        ]
+      },
+      {
+        "nodeId": "org.slf4j/slf4j-api@\"1.7.26\"]",
+        "pkgId": "org.slf4j/slf4j-api@\"1.7.26\"]",
+        "deps": []
+      },
+      {
+        "nodeId": "org.slf4j/log4j-over-slf4j@\"1.7.26\"]",
+        "pkgId": "org.slf4j/log4j-over-slf4j@\"1.7.26\"]",
+        "deps": []
+      }
+    ]
+  }
+}
